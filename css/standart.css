@@ -1,0 +1,40 @@
+.standard {
+    padding: 100px 0 0;
+    background-color: var(--color-light-gray);
+}
+.standard__description {
+    padding: 40px 0 30px;
+}
+.standard__link {
+    color: var(--color-blue);
+}
+.standard .row .col-5 + .col-5 {
+    margin-left: 120px;
+}
+.standard .row {
+    align-items: center;
+}
+.standard__list {
+    margin-top: 90px;
+    padding: 70px 0 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-gray);
+}
+.standard__item {
+    list-style: none;
+
+}
+.standard__span {
+    padding: 0 0 15px 15px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+}
+.standard__title{
+    font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: var(--color-gray);
+}

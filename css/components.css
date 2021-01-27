@@ -1,0 +1,47 @@
+.btn-blue {
+    cursor: pointer;
+    display: inline-block;
+    padding: 14px 36px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    transition: 0.3s;
+}
+
+.btn-blue:hover {
+    color: var(--color-blue);
+    background-color: var(--color-white);
+}
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: var(--color-black);
+}
+
+.suptitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-gray);
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.col-4 {
+    width: 33.3%;
+
+
+}
+.col-5{
+    width: 50%;
+}

@@ -1,0 +1,28 @@
+.header {
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__item {
+    list-style: none;
+    padding: 40px 0;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 0.8s;
+}
+
+.header__item:hover {
+    border-bottom: 2px solid  var(--color-white);
+}
