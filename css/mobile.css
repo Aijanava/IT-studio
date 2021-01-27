@@ -32,3 +32,6 @@
 .mobile-app .container {
     text-align: center;
 }
+.mobile-app .col-4 .description{
+    text-align: left;
+}
