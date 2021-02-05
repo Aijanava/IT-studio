@@ -1,0 +1,29 @@
+.project {
+    padding: 100px 0 130px;
+    background: var(--color-light-gray);
+    
+}
+.project .title, .project .description {
+    text-align: center;
+}
+.project .row {
+    justify-content: space-between;
+}
+.project .description {
+    margin: 50px 0 70px;
+}
+.project .btn-blue {
+    margin-top: 50px;
+}
+.project__inner {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 576px){
+    .project .row{
+        text-align: center;
+    }
+    .project__image {
+        margin-top:15px;
+    }
+}

@@ -19,6 +19,16 @@
     padding: 20px 0 50px;
     font-weight: 800;
     font-size: 48px;
-    line-height: 64px;
+    line-height: 1.33;
     color: var(--color-white);
+}
+
+@media screen and (max-width: 576px) {
+    .studio__title {
+        line-height: 48px;
+    }
+    .hero .btn-blue {
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
